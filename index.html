@@ -1,0 +1,566 @@
+<html>
+  <head>
+    <title>BARSMITA</title>
+      
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<style>
+   header video
+   {
+  width: 100%;             /* fills the entire width of the screen */
+  height: 100%;            /* keeps correct proportions */
+  object-fit: cover;       /* crops nicely instead of squishing */
+  display: block;          /* removes tiny gaps */
+  
+  z-index: -1;            /* sends it behind text */
+  position: absolute;        
+ 
+    }
+    html, body {
+  margin: 0;
+  padding: 0;
+}
+  .page{
+    display:flex;
+  }
+  #home{
+    display:none;
+  }
+  #menu{
+    display:none;
+  }
+  #aesthetics{
+    display:none;
+  }
+  #about{
+    display:none;
+  }
+  #home:target,#menu:target,#aesthetics:target,#about:target{
+    display:block;
+  }
+header{
+   height:150px ;
+   width:1250px;
+   border-radius: 50px;
+}
+header a{
+  padding:10px;
+  display:inline-block;
+  padding:0px 10px 0px;
+  margin:5px;
+  text-decoration: none;
+  font-family: 'Dancing Script';
+  color:moccasin;
+  font-size:30px;
+  background-color:rgb(174, 135, 74) ;
+  border-radius: 50px;
+}
+ .c3 {
+     margin:20px;
+    }
+.item:hover{
+  color:white;
+}
+h1{
+  font-family: 'Dancing Script',cursive;
+  color:moccasin;
+  font-size: 40px;
+}
+body{
+  background-color: moccasin;
+}
+.divv
+{
+display:inline-block;
+border-radius: 10px;
+background-color:rgb(214, 172, 131);
+height:300px;
+width:250px;
+margin:30px;
+position: relative; 
+align-items: center;
+text-align: center;
+}
+.imgg{
+  display:inline-block;
+  position: absolute;
+  border-radius: 10px; 
+  top: -75px;           /* half of .div2 height (150px/2) */
+  height:150px; 
+  width:130px; 
+  background-color:rgb(218, 201, 184);
+  align-items: center;
+  margin:20px;
+  overflow: hidden;
+  left: 40%;  
+   transform: translateX(-50%); 
+}
+#rotate:hover{
+  transform:rotateY(360deg);
+  transition: 1.5s;
+}
+h3{
+  color:rgb(251, 232, 201);
+  font-family:'Dancing Script',cursive ;
+  font-size:30px;
+}
+h4{
+    color:rgb(251, 232, 201);
+  font-family:'Dancing Script',cursive ;
+  font-size:20px;
+}
+p{
+   color:moccasin;
+   font-size:15px ;
+}
+h2{
+  font-size:30px;
+  color:moccasin;
+margin:20px;
+
+ display: flex;              /* enable flexbox */
+  justify-content: center;  
+}
+.h22{
+    font-size:30px;
+  color:rgb(214, 172, 131);
+margin:20px;
+font-family: 'Dancing Script',cursive;
+  justify-content: center;  
+}
+.div3{
+   border-radius: 10px;
+      background-color: rgb(214, 172, 131);
+      height: 450px;
+      width:1250px;
+      margin: 20px;
+      padding: 10px;
+}
+.im{
+     width: 350px;
+      height: 400px;
+
+      margin:30px;
+
+      border-radius: 6px;
+}
+.image{
+  height:400px;
+  width:500px;
+  margin:0px 320px;
+  border-radius: 20px;
+}
+footer
+{
+
+background-color: rgb(214, 172, 131) ;
+  margin-top: auto;
+}
+.containerr {
+            display: flex;           /*to display the content of menu i.e text of imgs in columns*/
+        }
+        .one-column {
+            width: 250px;
+            margin:10px;
+            padding:20px;
+            font-family: serif;
+            color:moccasin;
+            font-size:20px;
+        }
+.icons{
+  height:20px;
+  width:20px;
+}
+.coffee
+{
+display:inline-block;
+border-radius: 10px;
+background-color:rgb(214, 172, 131);
+height:350px;
+width:250px;
+margin:30px;
+position: relative; 
+align-items: center;
+text-align: center;
+}
+.cart{
+  height:40px;
+  width:40px;
+  margin-left: auto;
+  right: 20px;  
+  padding:-5px;
+}
+.aboutbg{
+  border-radius: 10px;
+      background-color: rgb(214, 172, 131);
+      height: 250px;
+      width:1220px;
+      margin: 20px;
+  text-align:center;
+      align-items: center;
+    }
+.beans{
+  height:350px;
+  width:450px;
+  display:inline-block;
+  margin:0 20px;
+  
+}
+
+</style>
+</head>
+    <body>
+       
+   <header>
+  
+        <video autoplay loop muted>
+            <source src="canva.mp4" >your browser odesn't support the video tag.
+        </video>
+        <br>
+        <div class="c3">
+        <h1 class="item">WELCOME TO BARSMITA</h1>
+        <a href="#home" class="item">Home   </a>
+        <a href="#menu"class="item">Menu    </a>
+        <a href="#aesthetics"class="item">Aesthetics   </a>
+        <a href="#about"class="item">About   </a>
+      </div>
+      </header>
+    
+         <div class="container">
+        <div id="home" class="page">
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  
+           <br><br><br><br><br><br><br><br><br><br><br>
+          <P>this is home</P><br><br>
+          <div id="rotate" class="divv">
+             <img class="imgg" src="coffee.jpg">
+              <br><br><br><br><br><br>
+              <h3>Iced Latte</h3>
+  <p>20% espresso, 40% milk foam and 40% steamed milk</p>
+   <h2>10$
+   
+   </h2>
+          </div>
+          <div id="rotate" class="divv">
+              <img class="imgg" src="matcha.png">
+               <br><br><br><br><br><br>
+           <h3>Iced Matcha</h3>
+  <p>20% espresso, 40% milk foam and 40% steamed milk</p>
+   <h2>12$</h2>
+          </div>
+          <div id="rotate" class="divv">
+            <img class="imgg" src="cappuccino.png">
+            <br><br><br><br><br><br>
+            <h3>Caramel Cappuccino</h3>
+  <p>20% espresso, 40% milk foam and 40% steamed milk</p>
+  <h2>14$</h2>
+          </div>
+          
+          <div id="rotate" class="divv">
+             <img class="imgg" src="w.png">
+              <br><br><br><br><br><br>
+             <h3>Iced Americano</h3>
+  <p>20% espresso, 40% milk foam and 40% steamed milk</p>
+  <h2>9$</h2>
+          </div>
+
+          <div class="div3">
+    <img class="im" src="1.jpg" alt="">
+    <img class="im" src="2.jpg" alt="">
+    <img class="im" src="3.jpg" alt="">
+  </div><br>
+  
+   <footer>
+   <div class="containerr">
+    <div class="one-column">
+      <h4>BARSMITA</h4>
+      Coffee<br>
+      happiness in cup
+    </div>
+     <div class="one-column">
+    <h4>PRIVACY</h4>
+    Coffee<br>
+    Beverages<br>
+    </div>
+     <div class="one-column">
+     <h4>LOCATIONS</h4>
+     Islamabad<br>
+     I-8 Markaz<br>
+     F-11 Markaz
+
+    </div>
+    <div class="one-column">
+   <h4>SOCIAL MEDIA</h4>
+   <img class="icons" src="social.png">:@barsmita<br>
+<img class="icons" src="facebook.png">:@barsmita<br>
+<img class="icons" src="tiktok.png">:@barsmita
+    </div>
+   </div>
+
+</footer>
+   </div>
+ 
+
+   <div id="menu" class="page">
+           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  
+           <br><br><br><br><br><br><br><br><br><br><br>
+           <br><br>
+            <div id="rotate" class="divv">
+             <img class="imgg" src="latte.png">
+              <br><br><br><br><br><br>
+              <h3>Iced Latte</h3>
+  <p>20% espresso, 40% milk foam and 40% steamed milk</p>
+   <h2>10$
+     <img class="cart" src="shopping-cart copy.png">
+   </h2>
+          </div>
+          <div id="rotate" class="divv">
+              <img class="imgg" src="matcha.png">
+               <br><br><br><br><br><br>
+           <h3>Iced Matcha</h3>
+  <p>Refreshing green tea blend with creamy milk over ice</p>
+   <h2>12$
+     <img class="cart" src="shopping-cart copy.png">
+   </h2>
+          </div>
+          <div id="rotate" class="divv">
+            <img class="imgg" src="cappuccino.png">
+            <br><br><br><br><br><br>
+            <h3>Caramel Cappuccino</h3>
+  <p>Rich espresso balanced with frothy milk and caramel drizzle</p>
+  <h2>14$ <img class="cart" src="shopping-cart copy.png">
+  </h2>
+          </div>
+          
+          <div id="rotate" class="divv">
+             <img class="imgg" src="w.png">
+              <br><br><br><br><br><br>
+             <h3>Iced Americano</h3>
+  <p>Smooth espresso poured over chilled water and ice</p>
+  <h2>9$
+     <img class="cart" src="shopping-cart copy.png">
+  </h2>
+          </div>
+          <br><br>
+            <div id="rotate" class="divv">
+             <img class="imgg" src="mocha.png">
+              <br><br><br><br><br><br>
+              <h3>Mocha Frappe</h3>
+  <p>Espresso blended with chocolate and milk, topped with cream</p>
+   <h2>15$
+     <img class="cart" src="shopping-cart copy.png">
+   </h2>
+          </div>
+          <div id="rotate" class="divv">
+              <img class="imgg" src="flat white.png">
+               <br><br><br><br><br><br>
+           <h3>Flat White</h3>
+  <p>Strong double espresso with smooth microfoam milk</p>
+   <h2>13$
+     <img class="cart" src="shopping-cart copy.png">
+   </h2>
+          </div>
+          <div id="rotate" class="divv">
+            <img class="imgg" src="double espresso.png">
+            <br><br><br><br><br><br>
+            <h3>Double Espresso</h3>
+  <p>Pure and bold — two shots of freshly brewed espresso</p>
+  <h2>8$
+     <img class="cart" src="shopping-cart copy.png">
+  </h2>
+          </div>
+          
+          <div id="rotate" class="divv">
+             <img class="imgg" src="cold brew.png">
+              <br><br><br><br><br><br>
+             <h3>Cold Brew</h3>
+  <p>Slow-steeped coffee for a naturally smooth, less acidic taste</p>
+  <h2>11$
+     <img class="cart" src="shopping-cart copy.png">
+  </h2>
+          </div>
+           <br><br>
+            <div id="rotate" class="divv">
+             <img class="imgg" src="hazelnut latte.png">
+              <br><br><br><br><br><br>
+              <h3>Hazelnut Latte</h3>
+  <p>Espresso and milk infused with roasted hazelnut flavor</p>
+   <h2>14$
+     <img class="cart" src="shopping-cart copy.png">
+   </h2>
+          </div>
+          <div id="rotate" class="divv">
+              <img class="imgg" src="vanilla latte.png">
+               <br><br><br><br><br><br>
+           <h3>Vanilla Latte</h3>
+  <p>Classic latte sweetened with a touch of vanilla syrup</p>
+   <h2>13$
+     <img class="cart" src="shopping-cart copy.png">
+   </h2>
+          </div>
+          <div id="rotate" class="divv">
+            <img class="imgg" src="espresso macchiato.png">
+            <br><br><br><br><br><br>
+            <h3>Espresso Macchiato</h3>
+  <p>Espresso “stained” with a dollop of milk foam</p>
+  <h2>9$
+     <img class="cart" src="shopping-cart copy.png">
+  </h2>
+          </div>
+          
+          <div id="rotate" class="divv">
+             <img class="imgg" src="oreo capp.png">
+              <br><br><br><br><br><br>
+             <h3>Oreo Cappuccino</h3>
+  <p>Espresso, creamy milk, and Oreo crumbles for a sweet twist.</p>
+  <h2>16$
+     <img class="cart" src="shopping-cart copy.png">
+  </h2>
+          </div>
+           <footer>
+   <div class="containerr">
+    <div class="one-column">
+      <h4>BARSMITA</h4>
+      Coffee<br>
+      happiness in cup
+    </div>
+     <div class="one-column">
+    <h4>PRIVACY</h4>
+    Coffee<br>
+    Beverages<br>
+    </div>
+     <div class="one-column">
+     <h4>LOCATIONS</h4>
+     Islamabad<br>
+     I-8 Markaz<br>
+     F-11 Markaz
+
+    </div>
+    <div class="one-column">
+   <h4>SOCIAL MEDIA</h4>
+   <img class="icons" src="social.png">:@barsmita<br>
+<img class="icons" src="facebook.png">:@barsmita<br>
+<img class="icons" src="tiktok.png">:@barsmita
+    </div><br>
+   </div>
+
+</footer>
+        </div>
+
+
+        
+        
+         <div id="aesthetics" class="page">
+           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  
+           <br><br><br><br><br><br><br><br><br><br><br>
+           <br>
+            <div >
+              <img class="coffee" src="AAAA.jpg">
+                  <img class="coffee" src="llll.jpg">
+                   <img class="coffee" src="kl.jpg">
+                    <img class="coffee" src="qqq.jpg">
+                    <img class="coffee" src="pop.jpg">
+                <img class="coffee" src="ASAS.jpg">
+                      <img class="coffee" src="er.jpg">
+                       <img class="coffee" src="psp.jpg">
+                        <img class="coffee" src="qee.jpg">
+                         <img class="coffee" src="qw.jpg">
+                          <img class="coffee" src="wew.jpg">
+                            <img class="coffee" src="tt.jpg">
+                            <img class="coffee" src="qr.jpg">
+                          <img class="coffee" src="dd.jpg">
+                            <img class="coffee" src="pp.jpg">
+                              <img class="coffee" src="jj.jpg">
+                                <img class="coffee" src="ADA.jpg">
+                            <img class="coffee" src="oo.jpg">
+                             <img class="coffee" src="ccap.jpg">
+                             <img class="coffee" src="xx.jpg">
+                              <img class="coffee" src="onn.jpg">
+                            <img class="coffee" src="qqqq.jpg">
+                              <img class="coffee" src="ts.jpg">
+                            <img class="coffee" src="www.jpg">
+            </div>
+             <footer>
+   <div class="containerr">
+    <div class="one-column">
+      <h4>BARSMITA</h4>
+      Coffee<br>
+      happiness in cup
+    </div>
+     <div class="one-column">
+    <h4>PRIVACY</h4>
+    Coffee<br>
+    Beverages<br>
+    </div>
+     <div class="one-column">
+     <h4>LOCATIONS</h4>
+     Islamabad<br>
+     I-8 Markaz<br>
+     F-11 Markaz
+
+    </div>
+    <div class="one-column">
+   <h4>SOCIAL MEDIA</h4>
+   <img class="icons" src="social.png">:@barsmita<br>
+<img class="icons" src="facebook.png">:@barsmita<br>
+<img class="icons" src="tiktok.png">:@barsmita
+    </div><br>
+   </div>
+
+</footer>
+        </div>
+         <div id="about" class="page">
+           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  
+           <br><br><br><br><br><br><br><br><br><br><br>
+            <h2 class="h22">ABOUT US</h2>
+            
+             <h2 class="h22">At Brew Haven Café, coffee isn’t just a drink — it’s our passion, our craft, and our way of bringing people together. From the very beginning, our vision has been simple: create a space where the love for authentic coffee shines in every cup. We don’t serve distractions or an endless menu of items — here, it’s all about the coffee. Every decision we make, from the beans we source to the way we design our cozy café, reflects our dedication to keeping coffee at the heart of everything we do.</h2>
+           <h2 class="h22">The Beans We Choose</h2>
+           <h2 class="h22">
+            <img class="beans" src="12.jpg"><img  class="beans" src="23.jpg">
+            Great coffee begins with great beans. That’s why we carefully source 100% specialty-grade Arabica beans from ethical farms across the globe. Each bean is grown with care, harvested by skilled hands, and roasted in small batches to preserve its unique character. Whether it’s the fruity brightness of an Ethiopian roast, the bold depth of a Sumatran, or the balanced smoothness of a Colombian, we make sure every sip tells a story of its origin.
+           </h2>
+           <h2 class="h22">Crafted With Care</h2>
+           <h2 class="h22">
+            Our baristas are artisans in their own right. With steady hands and a deep understanding of coffee science, they transform freshly ground beans into smooth espressos, velvety cappuccinos, refreshing iced Americanos, and indulgent caramel creations. Every cup is brewed to order — never rushed, never compromised — because we believe that coffee deserves time, attention, and love.
+           </h2>
+           <h2 class="h22">Why Only Coffee?</h2>
+           <h2 class="h22">
+            Many cafés chase trends with long menus filled with food, snacks, and endless extras. But we believe in staying true to what we love most: coffee in its purest form. By focusing solely on coffee, we can perfect our craft, offer consistency in flavor, and ensure that every single cup meets the highest standards of quality. When you walk through our doors, you know you’re getting the best coffee experience possible.
+            </h2>
+          <h2 class="h22">Our Promise</h2>
+           <h2 class="h22">
+           We promise to always serve coffee that is fresh, ethically sourced, and brewed with integrity. We promise to create a café that welcomes everyone — from early morning commuters to late-afternoon dreamers. And above all, we promise to never stop celebrating the art of coffee. Because for us, it isn’t just a beverage — it’s a daily ritual, a global culture, and a source of comfort and joy.
+            </h2>
+   <footer>
+   <div class="containerr">
+    <div class="one-column">
+      <h4>BARSMITA</h4>
+      Coffee<br>
+      happiness in cup
+    </div>
+     <div class="one-column">
+    <h4>PRIVACY</h4>
+    Coffee<br>
+    Beverages<br>
+    </div>
+     <div class="one-column">
+     <h4>LOCATIONS</h4>
+     Islamabad<br>
+     I-8 Markaz<br>
+     F-11 Markaz
+
+    </div>
+    <div class="one-column">
+   <h4>SOCIAL MEDIA</h4>
+   <img class="icons" src="social.png">:@barsmita<br>
+<img class="icons" src="facebook.png">:@barsmita<br>
+<img class="icons" src="tiktok.png">:@barsmita
+    </div><br>
+   </div>
+
+</footer>
+        </div>
+        
+        </div>
+       
+    </body>
+    </html>
